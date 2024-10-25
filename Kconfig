@@ -1,0 +1,13 @@
+#
+# Copyright 2024 NXP
+#
+# SPDX-License-Identifier: MIT
+#
+
+menuconfig MCUX_COMPONENT_middleware.freertos.coremqtt-agent
+    bool "coremqtt-agent"
+    default n
+    help
+        Agent for thread-safe use of coreMQTT
+    select MCUX_COMPONENT_middleware.freertos.coremqtt
+    select MCUX_COMPONENT_middleware.iot_reference.logging
