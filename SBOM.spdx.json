@@ -1,0 +1,63 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2025-06-17T09:30:46Z",
+    "creators": [
+      "Organization: NXP"
+    ],
+    "licenseListVersion": "3.20"
+  },
+  "name": "coremqtt-agent-v25.06.00",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://nxp.com/spdx/c4ba5f21-82a3-4ebf-8944-df3ce5e19f26",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-package-c4ba5f21-82a3-4ebf-8944-df3ce5e19f26",
+      "name": "coremqtt-agent",
+      "versionInfo": "v25.06.00",
+      "licenseConcluded": "(MIT)",
+      "licenseDeclared": "(MIT)",
+      "downloadLocation": "https://github.com/nxp-mcuxpresso/coremqtt-agent",
+      "originator": "Organization: NXP",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-package-2aa7eb7d-d880-423f-aa53-90237629fc0c",
+      "name": "FreeRTOS core",
+      "versionInfo": "v1.2.0",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "downloadLocation": "NOASSERTION",
+      "originator": "Organization: freertos",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/FreeRTOS/coreMQTT-Agent@v1.2.0",
+          "referenceType": "purl"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceLocator": "23f8df2b-5e7e-44f5-9626-aaddee0d93b4",
+          "referenceType": "BlackDuck-ComponentOrigin"
+        }
+      ],
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-package-c4ba5f21-82a3-4ebf-8944-df3ce5e19f26"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-c4ba5f21-82a3-4ebf-8944-df3ce5e19f26",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-2aa7eb7d-d880-423f-aa53-90237629fc0c"
+    }
+  ]
+}
