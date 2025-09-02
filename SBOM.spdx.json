@@ -2,20 +2,20 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2025-06-17T09:30:46Z",
+    "created": "2025-09-01T13:05:06Z",
     "creators": [
       "Organization: NXP"
     ],
     "licenseListVersion": "3.20"
   },
-  "name": "coremqtt-agent-v25.06.00",
+  "name": "coremqtt-agent-v25.09.00",
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://nxp.com/spdx/c4ba5f21-82a3-4ebf-8944-df3ce5e19f26",
+  "documentNamespace": "https://nxp.com/spdx/e344d992-7d70-4938-a6dd-174e3358fe94",
   "packages": [
     {
-      "SPDXID": "SPDXRef-package-c4ba5f21-82a3-4ebf-8944-df3ce5e19f26",
+      "SPDXID": "SPDXRef-package-e344d992-7d70-4938-a6dd-174e3358fe94",
       "name": "coremqtt-agent",
-      "versionInfo": "v25.06.00",
+      "versionInfo": "v25.09.00",
       "licenseConcluded": "(MIT)",
       "licenseDeclared": "(MIT)",
       "downloadLocation": "https://github.com/nxp-mcuxpresso/coremqtt-agent",
@@ -25,8 +25,8 @@
       "filesAnalyzed": false
     },
     {
-      "SPDXID": "SPDXRef-package-2aa7eb7d-d880-423f-aa53-90237629fc0c",
-      "name": "FreeRTOS core",
+      "SPDXID": "SPDXRef-package-c181f866-64d3-45b9-87e4-26da08d9c51a",
+      "name": "FreeRTOS/coreMQTT",
       "versionInfo": "v1.2.0",
       "licenseConcluded": "MIT",
       "licenseDeclared": "MIT",
@@ -52,12 +52,12 @@
     {
       "spdxElementId": "SPDXRef-DOCUMENT",
       "relationshipType": "DESCRIBES",
-      "relatedSpdxElement": "SPDXRef-package-c4ba5f21-82a3-4ebf-8944-df3ce5e19f26"
+      "relatedSpdxElement": "SPDXRef-package-e344d992-7d70-4938-a6dd-174e3358fe94"
     },
     {
-      "spdxElementId": "SPDXRef-package-c4ba5f21-82a3-4ebf-8944-df3ce5e19f26",
+      "spdxElementId": "SPDXRef-package-e344d992-7d70-4938-a6dd-174e3358fe94",
       "relationshipType": "CONTAINS",
-      "relatedSpdxElement": "SPDXRef-package-2aa7eb7d-d880-423f-aa53-90237629fc0c"
+      "relatedSpdxElement": "SPDXRef-package-c181f866-64d3-45b9-87e4-26da08d9c51a"
     }
   ]
 }
