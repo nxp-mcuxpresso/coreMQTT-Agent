@@ -6,18 +6,16 @@
 
 if (CONFIG_MCUX_COMPONENT_middleware.freertos.coremqtt-agent)
     mcux_add_source(
-        SOURCES source/include/core_mqtt_agent.h
-                source/include/core_mqtt_agent_command_functions.h
-                source/include/core_mqtt_agent_config_defaults.h
-                source/include/core_mqtt_agent_default_logging.h
-                source/include/core_mqtt_agent_message_interface.h
-                source/core_mqtt_agent_command_functions.c
-                source/core_mqtt_agent.c
-        BASE_PATH ${SdkRootDirPath}/rtos/freertos/coremqtt-agent/
+        SOURCES ../coremqtt-agent-upstream/source/include/core_mqtt_agent.h
+                ../coremqtt-agent-upstream/source/include/core_mqtt_agent_command_functions.h
+                ../coremqtt-agent-upstream/source/include/core_mqtt_agent_config_defaults.h
+                ../coremqtt-agent-upstream/source/include/core_mqtt_agent_default_logging.h
+                ../coremqtt-agent-upstream/source/include/core_mqtt_agent_message_interface.h
+                ../coremqtt-agent-upstream/source/core_mqtt_agent_command_functions.c
+                ../coremqtt-agent-upstream/source/core_mqtt_agent.c
     )
     mcux_add_include(
-        INCLUDES source/include
-        BASE_PATH ${SdkRootDirPath}/rtos/freertos/coremqtt-agent/
+        INCLUDES ../coremqtt-agent-upstream/source/include
     )
 
     mcux_add_configuration(
